@@ -3,7 +3,7 @@ image:
   imageType: iso
   arch: x86_64
   baseImage: SLE-Micro.x86_64-5.5.0-Default-SelfInstall-GM.install.iso
-  outputImageName: eib-k3s.iso
+  outputImageName: eib-rke2.iso
 operatingSystem:
   isoConfiguration:
     installDevice: /dev/sda
@@ -33,4 +33,4 @@ operatingSystem:
   packages:
     sccRegistrationCode: INTERNAL-USE-ONLY-b1fb-dbe6
 kubernetes:
-  version: v1.27.4+k3s1
+  version: v1.29.0+rke2r1
