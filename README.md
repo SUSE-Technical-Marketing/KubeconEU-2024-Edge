@@ -31,3 +31,8 @@ In order to deliver this setup, you'll need 3 NUC-like PCs. Each NUC should prov
 - 3x SLE Micro 5.5
 - 1x SLES
 
+## Local DNS services
+To use any "invented domain" as a local domain and make sure that all the demo machines have access to it and connect to each other properly a simple local DNS service is necessary. It will implemented will CoreDNS and podman following the next steps:
+1- Configure CoreDNS
+2- Start the CoreDNS pod with podman
+3- Make sure that all the machines have a static IP and that in etc/resolv.conf the first entry is the IP of the machine where the CoreDNS container is running. In this case the primary DNS resolution will be in 192.168.1.113, in there basically will find the local DNS resolution and if an external resolution were necessary will forward you to an external DNS service. 

@@ -1,6 +1,6 @@
 kubecon.lab.                 IN  SOA     dns.kubecon.lab. coredns.kubecon.lab. 2015082541 7200 3600 1209600 3600
 rancher.kubecon.lab.         IN  A       192.168.1.110
-dns.kubecon.lab.             IN  A       192.168.1.115
+dns.kubecon.lab.             IN  A       192.168.1.113
 edge1.kubecon.lab.           IN  A       192.168.1.111
 edge1.kubecon.lab.           IN  A       192.168.1.112
 eib.kubecon.lab.             IN  A       192.168.1.113
