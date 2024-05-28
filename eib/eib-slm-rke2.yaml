@@ -16,7 +16,7 @@ operatingSystem:
         - 2.suse.pool.ntp.org
   systemd:
     enable:
-      - cockpit.service
+      - cockpit.socket
   keymap: us
   users:
     - username: root
@@ -31,6 +31,6 @@ operatingSystem:
       secondaryGroups:
         - wheel
   packages:
-    sccRegistrationCode: INTERNAL-USE-ONLY-b1fb-dbe6
+    sccRegistrationCode: INTERNAL-USE-ONLY-xxxx-yyyy
 kubernetes:
   version: v1.29.0+rke2r1
