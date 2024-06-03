@@ -12,17 +12,16 @@ This repository is meant to be used as a tool to easily repeat the demos that wi
 ## Requirements
 
 ### Compute
-In order to deliver this setup, you'll need 3 NUC-like PCs. Each NUC should provide at least 8 GB of RAM, 4 Cores CPU, and 8 Threads. If you want to add Rancher Prime to the equation, a fourth NUC will be necessary with at least 16 GB of RAM. Also, a Raspberry Pi 4 or superior with 4GB of RAM.
-- 4x NUC
+In order to deliver this setup, you'll need 3 NUC-like PCs. Each NUC should provide at least 8 GB of RAM, 4 Cores CPU, and 8 Threads. If you want to add Rancher Prime to the equation, a fourth NUC will be necessary with at least 16 GB of RAM.
+- 3x NUC
 
 ### Networking
-- 8x 1Gbps port switch
-- 6x RJ45 cables
+- 4x 1Gbps port switch
+- RJ45 cables
 
 ### OS
 - 1x openSUSE Tumbleweed
 - 2x SLE Micro 5.5
-- 1x SLES
 
 ## Local DNS services
 To use any "invented domain" as a local domain and make sure that all the demo machines have access to it and connect to each other properly a simple local DNS service is necessary. It will implemented will CoreDNS and podman following the next steps:
